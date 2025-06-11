@@ -1,4 +1,3 @@
-// import { useEffect } from 'react';
 
 const Links = ({title,links})=>(
 
@@ -11,10 +10,6 @@ const Links = ({title,links})=>(
 )
 
 const Footer = () => {
-
-// useEffect(() => {
-//   console.log('Component re-rendered');
-// }, []);
 
   return (
     <footer className='footer-color mt-[100px]'>

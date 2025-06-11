@@ -1,4 +1,4 @@
-import {Hero,WhatGPT4,Features,About,Request,Cta,Blog,Footer} from "../containers";
+import {Hero,WhatGPT4,Features,About,Request,Cta,Blog} from "../containers";
 
 const Home = () => {
   return (
