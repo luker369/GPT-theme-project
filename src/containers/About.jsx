@@ -29,7 +29,7 @@ const About = () => {
     }
   ]
   return (
-    <div className='flex gap-[50px] flex-col xxl:flex-row xl:mx-[100px] mx-[20px] md:mx-[100px] mt-[100px]'>
+    <div className='flex gap-[50px] flex-col xxl:flex-row mx-[20px] md:mx-[100px] mt-[100px]'>
 
       <div className='text max-w-[600px]'>
         <h1 className='gradient__text font-bold text-[40px]'>The Future is Now and You Just Need to Realize It. Step into the Future Today & Make it Happen</h1>
