@@ -6,6 +6,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    /* outline: 1px solid red; */
 }
 html{
     scroll-behavior: smooth;
@@ -29,7 +30,8 @@ html{
 body{
     background: var(--color-bg);
     font-family: var(--font-family);
-    color: white
+    color: white;
+    overflow-x: hidden;
 
 }
 

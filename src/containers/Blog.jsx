@@ -23,7 +23,7 @@ const Blog = () => {
 
   console.log(blogData)
   return (
-    <div className='mt-[100px] mx-[20px] sm:mx-[100px]'>
+    <div className='mt-[100px] mx-[20px] sm:mx-[50px]'>
       <h1 className='text-[40px] sm:text-[60px] gradient__text font-bold max-w-[700px] mb-[40px]'></h1>
       <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-[30px]'>
         {

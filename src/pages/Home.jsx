@@ -6,7 +6,7 @@ const Home = () => {
     <Hero />
     <WhatGPT4 />
     <Features />
-    {/* <About /> */}
+    <About />
     <Request />
     <Cta />
     <Blog />

@@ -4,11 +4,11 @@ import { HiBars3 } from "react-icons/hi2";
 import { MdClose } from "react-icons/md";
 
 
-const Buttons = ()=>(
+const Buttons = ({ onClick })=>(
 
   <div className="buttons flex gap-[20px]">
-    <Link className='nav-button' to="auth/login">Sign in</Link>
-    <Link className='nav-button bg-red-500' to="auth/signup">Sign up</Link>
+    <Link className='nav-button' to="/auth/login" onClick={onClick}>Sign in</Link>
+    <Link className='nav-button bg-red-500' to="/auth/signup" onClick={onClick}>Sign up</Link>
 
   </div>
 )
@@ -33,13 +33,13 @@ const Header = () => {
       <li><a className='nav-item' href="#case-studies">Case Studies</a></li>
       <li><a className='nav-item' href="#library">Library</a></li>
 
-      <div className="sm:hidden">
-        <Buttons />
+      <div className="xl:hidden">
+        <Buttons onClick={()=>setToggle(false)}/>
       </div>
 
      </ul>
 
-     <div className="hidden sm:block">
+     <div className="hidden xl:block">
      <Buttons />
      </div>
 

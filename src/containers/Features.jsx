@@ -30,7 +30,7 @@ const Features = () => {
       </div>
 
       <div className='flex items-center justify-between flex-wrap gap-[30px] mt-[100px]'>
-        <h1 className='gradient__text font-bold text-[35px] sm:text-[45px] lg:max-w-[650px]'>The possibilites are beyond your imagination</h1>
+        <h1 className='gradient__text font-bold text-[25px] sm:text-[45px] lg:max-w-[650px]'>The possibilites are beyond your imagination</h1>
         <p className='gradient__text font-bold'>Explore the Library</p>
       </div>
 
